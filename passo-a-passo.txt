@@ -1,0 +1,10 @@
+1-criar um diretorio
+2- iniciar npm
+3- baixar express
+4- ejs (front)
+5- Consign - auto loader
+6 - body-parser (middleware popula a variavel body que contem os elementos de form transitaos nas nossas requisicoes)
+7- Express-validator ( validacoes backend)
+
+8- config -> server.js sao as configuracoes do servidor
+9- app.js / Entry point

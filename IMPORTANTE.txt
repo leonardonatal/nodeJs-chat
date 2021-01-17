@@ -1,0 +1,11 @@
+MVC 
+
+Segundo o padrão MVC, toda a lógica, principalmente relacionada a banco de dados, deve ser colocada no Model.
+
+Considere o padrão MVC como um computador. O Model é a CPU, a View é seu monitor e o Controller são as portas / cabos.
+
+Views não têm lógica, assim como seu monitor. Ele é burro, só exibe o que o controller (cabos / portas) manda pra ele.
+
+Controllers contém o mínimo de lógica possível, assim como cabos e portas: Eles são só o que conecta as Views e os Models.
+
+Os Models, assim como a CPU, é quem faz todo o trabalho pesado: é responsável por qualquer lógica leve ou pesada (a mais comum delas sendo a persistência). É ela quem trata tudo que o Controller manda pra ela; e o Controller manda assim como recebeu, quem vai receber, tratar, formatar e manipular será o Model.
